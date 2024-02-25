@@ -192,7 +192,8 @@ class Drink{
     /* Image */        "./images/cosmopolitanOG.png", 
     /* Batch */        null,
     /* Instructions */ null);
-    let cosmopolitanCran = new Drink(
+    let cosmopolitanCran = new Drink
+        (
         /* Name */         "Cosmopolitan ( Cranberry-Esque )",
         /* Glass */        "Coupe Glass", 
         /* Rim */          null, 
@@ -203,7 +204,26 @@ class Drink{
         /* Garnish */      ["Lemon Twist"],
         /* Image */        "./images/cosmopolitanCran.png", 
         /* Batch */        null,
-        /* Instructions */ null);
+        /* Instructions */ null
+        );
+    let rumRunner = new Drink
+        (
+        /* Name */         "Rum Runner",
+        /* Glass */        "Hurricane", 
+        /* Rim */          null, 
+        /* Liquor */       ["Light Rum - 1 oz",
+                            "Dark Rum - 1 oz"], 
+        /* Liqueuer */     ["Banana Liqueur - .5 oz",
+                            "Blackberry Liqueur - .5 oz"], 
+        /* Mixers */       ["Grenadine .5 oz,",
+                            "Lime Juice - .5 oz,",
+                            "Orange Juice - 1 oz,",
+                            "Pineapple Juice - 1 oz"], 
+        /* Garnish */      ["Pineapple Wedge & Cherry"],
+        /* Image */        "./images/rumRunner.png", 
+        /* Batch */        null,
+        /* Instructions */ null
+        );
    let espressoMartini = new Drink("Espresso Martini", "Martini Glass",null,["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Kahlua - .5 oz,", "Crème de Cacao - .5 oz"], ["Espresso ( or Coffee ) - .5"], ["Espresso Beans 3"],"./images/espressoMartini.png", null, null);
    let french75 = new Drink("French 75", "Champagne Flute", "Champaign - 2 oz", ["Gin - 1.5 oz"],null, ["Lemon Juice - .75 oz,", "Simple syrup - .75 oz"], ["Lemon Twist"],"./images/french75.png", null, null);
    let frenchMartini = new Drink("French Martini", "Martini Glass",null, ["Vodka - 1.5 oz"], ["Chambord - .5 oz"], ["Pineapple Juice - .75 oz"], ["Lemon Twist"],"./images/frenchMartini.png", null, null);
@@ -297,6 +317,7 @@ class Drink{
        longIslandIcedTea,
        maiTai,
        negroni,
+       rumRunner,
        sexOnTheBeach,
        siesta,
       ];
