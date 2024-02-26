@@ -138,16 +138,18 @@ class Drink{
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Specials
-   let diddyRita = new Drink(
-    /* Name */     "Diddy Rita",
-    /* Glass */    "Rocks Glass", 
-    /* Rim */      "Guest Choice", 
-    /* Liquor */   ["Deleon - 2 oz"], 
-    /* Liqueuer */ ["Cointreau - .5 oz"], 
-    /* Mixers */   ["Agave - .5 oz,", "Sour Mix - 1 oz,", "Blood O.J. - 1.5 oz"], 
-    /* Garnish */  ["Orange Slice"],
-    /* Image */    "./images/logo.png", 
-    /* Batch */    null, null);
+   let diddyRita = new Drink
+        (
+        /* Name */     "Diddy Rita",
+        /* Glass */    "Rocks Glass", 
+        /* Rim */      "Guest Choice", 
+        /* Liquor */   ["Deleon - 2 oz"], 
+        /* Liqueuer */ ["Cointreau - .5 oz"], 
+        /* Mixers */   ["Agave - .5 oz,", "Sour Mix - 1 oz,", "Blood O.J. - 1.5 oz"], 
+        /* Garnish */  ["Orange Slice"],
+        /* Image */    "./images/logo.png", 
+        /* Batch */    null, null
+        );
    let tacoTuesday = new Drink("$2 Off All Tacos and Margaritas", null, null, null, null, null, null,"./images/tacoTuesdayUpdate.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
@@ -159,7 +161,7 @@ class Drink{
 
 
    // Batch Recipes
-   let roccoMangoBatch = new Drink("Rocco Mango (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver  - 750ml", "---------------------------------","Rock & Roll:", "Mango Tequila - 750ml"], ["J. F. Hayden:", "Mango Liqueur - 750ml"],null,null, "./images/logo.png", "Batch", null);
+   let roccoMangoBatch = new Drink("Rocco Mango (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver  - 1000 ml", "---------------------------------","Rock & Roll:", "Mango Tequila - 1000 ml"], ["J. F. Hayden:", "Mango Liqueur - 1000 ml"],null,null, "./images/logo.png", "Batch", null);
    let houseLiterBatch = new Drink("House Liter (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver - 6 oz"], ["Triple Sec - 3 oz"], ["Sour Mix - 12 oz,", "Water - 10 oz"],null,"./images/houseLiter.png", "Batch", null);
    let houseLiterFlavorBatch = new Drink("House Liter Flavor (Batch)",null,null, ["Jose Cuervo:", "Tradicional Silver 6 oz"], ["Triple Sec - 3 oz"], ["Puree Flavor - 3 oz", "Sour Mix - 9 oz,", "Water - 10 oz"],null,"./images/houseLiterFlavor.png", "Batch", ["Flavors:", "-------------------------", "Strawberry,", "Mango,", "Prickly Pear,", "Passion Fruit or", "Pomegranate"]);
    //let  = new Drink(null,null,null, null,null,null,null,"./images/logo.png", "Batch");
@@ -168,30 +170,34 @@ class Drink{
    // Searchable Drinks
    let aperolSpritz = new Drink("Aperol Spritz", "Wine Glass",null, ["Dry Prosecco - 3 oz"], ["Aperol - 2 oz"], ["Club Soda ( Splash )"], ["Orange Slice"],"./images/aperolSpritz.png", null, null);
    let appleMartini = new Drink("Apple Martini", "Martini Glass",null,["Vodka - 1.5 oz"], ["Sour Apple Pucker - .5 oz"], ["Lemon Juice - 1 oz,","Simple Syrup ( or Agave ) - .5 oz"], ["Apple Slice & Cherry"],"./images/appletini.png", null, null);
-   let bellini = new Drink(
-    /* Name */         "Bellini",
-    /* Glass */        "Champagne Flute", 
-    /* Rim */          null, 
-    /* Liquor */       ["Proseco - 6 oz", "( or other dry sparkling wine )"], 
-    /* Liqueuer */     null, 
-    /* Mixers */       ["Peach Puree - 3 oz"], 
-    /* Garnish */      ["Peach Slice"],
-    /* Image */        "./images/bellini.png", 
-    /* Batch */        null,
-    /* Instructions */ ["Alternate", "( if no peach puree available)", "---------------------------------", "Proseco - 4 oz", "Peach Schnapps - 1 oz"]);
+   let bellini = new Drink
+        (
+        /* Name */         "Bellini",
+        /* Glass */        "Champagne Flute", 
+        /* Rim */          null, 
+        /* Liquor */       ["Proseco - 6 oz", "( or other dry sparkling wine )"], 
+        /* Liqueuer */     null, 
+        /* Mixers */       ["Peach Puree - 3 oz"], 
+        /* Garnish */      ["Peach Slice"],
+        /* Image */        "./images/bellini.png", 
+        /* Batch */        null,
+        /* Instructions */ ["Alternate", "( if no peach puree available)", "---------------------------------", "Proseco - 4 oz", "Peach Schnapps - 1 oz"]
+        );
    let chocolateMartini = new Drink("Chocolate Martini", "Martini Glass",null, ["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Crème de Cacao ( White ) - .5 oz,", "Crème de Cacao ( Dark ) - .5 oz"], ["Milk ( For Volume If Wanted ) - 1 oz"], ["Chocolate Shavings", "( On Rim or Top )," , "Chocolate Syrup", "( In Glass Before Pour )"],"./images/chocolateMartini.png", null, null);
-   let cosmopolitanOG = new Drink(
-    /* Name */         "Cosmopolitan ( Original )",
-    /* Glass */        "Coupe Glass", 
-    /* Rim */          null, 
-    /* Liquor */       ["Citron Vodka - 1.5 oz"], 
-    /* Liqueuer */     ["Cointreau - 1.5 oz"], 
-    /* Mixers */       ["Fresh Lime Juice - 1 oz,",
-                        "Cranberry Juice ( 1 - 2 Dashes )"], 
-    /* Garnish */      ["Lemon Twist"],
-    /* Image */        "./images/cosmopolitanOG.png", 
-    /* Batch */        null,
-    /* Instructions */ null);
+   let cosmopolitanOG = new Drink
+        (
+            /* Name */         "Cosmopolitan ( Original )",
+            /* Glass */        "Coupe Glass", 
+            /* Rim */          null, 
+            /* Liquor */       ["Citron Vodka - 1.5 oz"], 
+            /* Liqueuer */     ["Cointreau - 1.5 oz"], 
+            /* Mixers */       ["Fresh Lime Juice - 1 oz,",
+                                "Cranberry Juice ( 1 - 2 Dashes )"], 
+            /* Garnish */      ["Lemon Twist"],
+            /* Image */        "./images/cosmopolitanOG.png", 
+            /* Batch */        null,
+            /* Instructions */ null
+        );
     let cosmopolitanCran = new Drink
         (
         /* Name */         "Cosmopolitan ( Cranberry-Esque )",
@@ -509,6 +515,7 @@ class Drink{
 
     
                     if(x["batch"] === "Batch"){
+                        $("#recipeDiv").show();
                         if(x["glass"] === "Wine Glass"){
                             $("#liquor").text("Wine :").css("text-decoration", "underline");
                         }
