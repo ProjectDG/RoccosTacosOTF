@@ -206,7 +206,29 @@ class Drink{
         /* Batch */        null,
         /* Instructions */ null
         );
-    let rumRunner = new Drink
+   let espressoMartini = new Drink("Espresso Martini", "Martini Glass",null,["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Kahlua - .5 oz,", "Crème de Cacao - .5 oz"], ["Espresso ( or Coffee ) - .5"], ["Espresso Beans 3"],"./images/espressoMartini.png", null, null);
+   let french75 = new Drink("French 75", "Champagne Flute", "Champaign - 2 oz", ["Gin - 1.5 oz"],null, ["Lemon Juice - .75 oz,", "Simple syrup - .75 oz"], ["Lemon Twist"],"./images/french75.png", null, null);
+   let frenchMartini = new Drink("French Martini", "Martini Glass",null, ["Vodka - 1.5 oz"], ["Chambord - .5 oz"], ["Pineapple Juice - .75 oz"], ["Lemon Twist"],"./images/frenchMartini.png", null, null);
+   let greenTea = new Drink("Green Tea", "Rocks Glass",null, ["Irish Whiskey - .5 oz"], ["Peach Schnapps - .5 oz"], ["Sour Mix - .5 oz,", "Sprite ( Splash )"],null,"./images/greenTea.png", null, null);
+   let hurricane = new Drink("Hurricane", "Hurricane Glass",null, ["Dark Rum - 1 oz,", "Light Rum - 1 oz"],null, ["Lime Juice - .5 oz,", "Orange Juice - .5 oz,", "Simple Syrup - .5 oz,", "Passion Fruit Puree - .5 oz", "Grenadine 1 Teaspoon"], ["Cherry & Orange Slice"],"./images/hurricane.png", null, null);
+   let longIslandIcedTea = new Drink("Long Island Iced Tea", "Pint Glass",null, ["Gin - .5 oz,", "Rum - .5 oz,", "Vodka - .5 oz,", "Tequila - .5 oz"], ["Triple Sec - .5 oz"], ["Coke - 1 oz,", "Sweet & Sour Mix - 1 oz"], ["Lemon Wheel"], "./images/longIslandIcedTea.png", null, null);
+   let maiTai = new Drink("Mai Tai", "Hurricane Glass",null,["Rum - 1.5 oz,", "Dark Rum ( Float ) - .5 oz"], ["Orange Curaçao - .75 oz"], ["Orgeat - .5 oz,", "Lemon Juice - .75 oz"], ["Lime & Mint Sprig"],"./images/maiTai.png", null, null);
+   let mexicanCandyShot = new Drink
+        (
+        /* Name */         "Mexican Candy Shot",
+        /* Glass */        "Shot Glass", 
+        /* Rim */          ["Tajin Chile Lime Spice"], 
+        /* Liquor */       ["Tequila (Blanco) - 1.5 oz"], 
+        /* Liqueuer */     ["Watermelon Pucker - .5 oz,", 
+                            "or Watermelon Schnapps"], 
+        /* Mixers */       ["Hot Sauce - Dash (Optional)"], 
+        /* Garnish */      null,
+        /* Image */        "./images/mexicanCandyShot.png", 
+        /* Batch */        null,
+        /* Instructions */ null
+        );
+   let negroni = new Drink("Negroni", "Rocks Glass",null, ["Gin - 1 oz"], ["Campari - 1 oz"], ["Sweet Vermouth - 1 oz"], ["Orange Slices"],"./images/negroni.png", null, null);
+   let rumRunner = new Drink
         (
         /* Name */         "Rum Runner",
         /* Glass */        "Hurricane", 
@@ -224,14 +246,6 @@ class Drink{
         /* Batch */        null,
         /* Instructions */ null
         );
-   let espressoMartini = new Drink("Espresso Martini", "Martini Glass",null,["Vodka ( or Vanilla Vodka ) - 2 oz"], ["Kahlua - .5 oz,", "Crème de Cacao - .5 oz"], ["Espresso ( or Coffee ) - .5"], ["Espresso Beans 3"],"./images/espressoMartini.png", null, null);
-   let french75 = new Drink("French 75", "Champagne Flute", "Champaign - 2 oz", ["Gin - 1.5 oz"],null, ["Lemon Juice - .75 oz,", "Simple syrup - .75 oz"], ["Lemon Twist"],"./images/french75.png", null, null);
-   let frenchMartini = new Drink("French Martini", "Martini Glass",null, ["Vodka - 1.5 oz"], ["Chambord - .5 oz"], ["Pineapple Juice - .75 oz"], ["Lemon Twist"],"./images/frenchMartini.png", null, null);
-   let greenTea = new Drink("Green Tea", "Rocks Glass",null, ["Irish Whiskey - .5 oz"], ["Peach Schnapps - .5 oz"], ["Sour Mix - .5 oz,", "Sprite ( Splash )"],null,"./images/greenTea.png", null, null);
-   let hurricane = new Drink("Hurricane", "Hurricane Glass",null, ["Dark Rum - 1 oz,", "Light Rum - 1 oz"],null, ["Lime Juice - .5 oz,", "Orange Juice - .5 oz,", "Simple Syrup - .5 oz,", "Passion Fruit Puree - .5 oz", "Grenadine 1 Teaspoon"], ["Cherry & Orange Slice"],"./images/hurricane.png", null, null);
-   let longIslandIcedTea = new Drink("Long Island Iced Tea", "Pint Glass",null, ["Gin - .5 oz,", "Rum - .5 oz,", "Vodka - .5 oz,", "Tequila - .5 oz"], ["Triple Sec - .5 oz"], ["Coke - 1 oz,", "Sweet & Sour Mix - 1 oz"], ["Lemon Wheel"], "./images/longIslandIcedTea.png", null, null);
-   let maiTai = new Drink("Mai Tai", "Hurricane Glass",null,["Rum - 1.5 oz,", "Dark Rum ( Float ) - .5 oz"], ["Orange Curaçao - .75 oz"], ["Orgeat - .5 oz,", "Lemon Juice - .75 oz"], ["Lime & Mint Sprig"],"./images/maiTai.png", null, null);
-   let negroni = new Drink("Negroni", "Rocks Glass",null, ["Gin - 1 oz"], ["Campari - 1 oz"], ["Sweet Vermouth - 1 oz"], ["Orange Slices"],"./images/negroni.png", null, null);
    let sexOnTheBeach = new Drink("Sex On The Beach", "Hurricane Glass",null, ["Vodka - 1.5 oz"], ["Peach Schnapps - .5 oz"], ["Orange Juice - 2 oz,", "Cranberry Juice - 2 oz"], ["Cherry & Orange Slice"],"./images/sexOnTheBeach.png", null, null);
    let siesta = new Drink("Siesta", "Coupe Glass",null, ["Tequila ( Blanco ) - 2 oz"], ["Campari - .5 oz"],["Lime Juice - .75 oz,", "Grapefruit Juice - .5 oz,", "Agave or Simple Syrup - .5 oz"], ["Lime, Lemon or Grapefruit Wedge"],"./images/siesta.png", null, null);
    
@@ -316,6 +330,7 @@ class Drink{
        hurricane,
        longIslandIcedTea,
        maiTai,
+       mexicanCandyShot,
        negroni,
        rumRunner,
        sexOnTheBeach,
