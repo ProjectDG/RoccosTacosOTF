@@ -148,7 +148,7 @@ class Drink{
     /* Garnish */  ["Orange Slice"],
     /* Image */    "./images/logo.png", 
     /* Batch */    null, null);
-   let tacoTuesday = new Drink("$7 House | $5 Mexican Drafts | $27.99 All You Can Eat Tacos", "Margarita Glass", "Guest Choice", ["Jose Cuervo", "Tradicional Silver - 1.5 oz"], ["Triple Sec - 1 oz"], ["Sour Mix - 3 oz"], ["Lime Wedge"],"./images/tacoTuesday.png", null, null);
+   let tacoTuesday = new Drink("$2 Off All Tacos and Margaritas", null, null, null, null, null, null,"./images/tacoTuesdayUpdate.png", null, null);
    //let  = new Drink("",null,null,null,null,null,null,"./images/.png", null);
 
    // Brunch
@@ -502,6 +502,10 @@ class Drink{
                     $("#drinkTitle").text(this.value);
                     $("#drinkPhoto").attr("src", x["photo"]);
                     $("#recipeDiv").html('<div class="recipe-container"></div>');
+
+                    if(x["glass"] === null){
+                        $("#recipeDiv").hide();
+                    }
 
     
                     if(x["batch"] === "Batch"){
